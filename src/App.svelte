@@ -6,6 +6,8 @@
   import ContributorBlock from './components/contributorBlock.svelte';
   import Header from './components/header.svelte';
   import Footer from './components/footer.svelte';
+  import DownloadBtn from './components/downloadBtn.svelte';
+  import { OS, sylphVersion } from './utilities/userOS';
 </script>
 
 <svelte:head>
@@ -19,6 +21,9 @@
       <h1>SIMPLIFIED</h1>
       <p>An Open Source Drag and Drop</p>
       <p>Svelte Prototyping App</p>
+      <form action={sylphVersion} method="get" target="_blank" class="DL-form">
+        <DownloadBtn OS={OS.name} />
+      </form>
     </div>
     <div class="title-img">
       <img src="/sylph-screen.png" alt="sylph screen shot" />
@@ -108,7 +113,9 @@
   .dev-section {
     display: flex;
     flex-direction: column;
-
+    justify-content: space-around;
+    align-items: center;
+    gap: 6em;
     background-color: #1e1e1e;
     width: 100%;
     height: 400px;
@@ -117,11 +124,21 @@
   }
   .dev-section h1 {
     color: whitesmoke;
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
   }
   .devs {
+    display: grid;
+    width: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: inherit;
+    margin: 0 0 40px 0;
+  }
+  .DL-form {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
   .download {
     width: 100%;
@@ -139,7 +156,7 @@
   .title-head {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 100%;
+    height: auto;
     background-color: #532b72;
     justify-content: center;
     padding: 30px;
@@ -156,6 +173,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .title-img img {
+    max-width: 100%;
+    height: auto;
   }
   .main-container {
     background-color: #202040;
@@ -178,6 +199,8 @@
     margin: 0;
     padding: 0;
     color: darkgray;
+    font-size: 1.3em;
+    font-weight: 500;
   }
   .feature {
     display: flex;
