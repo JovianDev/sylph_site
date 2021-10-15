@@ -24,7 +24,7 @@
 		justify-content: center;
 		gap:10px;
 		height: 3em;
-		width: 50%;
+		width: 60%;
 		background-color: #9476AB;
 		border-radius: 30px;
 		border:none;

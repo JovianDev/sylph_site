@@ -11,7 +11,7 @@ const version = (OS) => {
   }
   if (OS?.name === 'Windows') {
     return;
-    ('https://github.com/oslabs-beta/Sylph/releases/download/v1.0.0-testing/Sylph.Setup.1.0.0.exe');
+    ('https://github.com/oslabs-beta/Sylph/releases/download/v1.0.0-beta/Sylph.Setup.1.0.0.exe');
   }
 };
 export const sylphVersion = version(OS);
