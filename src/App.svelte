@@ -96,8 +96,8 @@
         </svg>
         <h2>Live Previews</h2>
         <p>
-          <strong><em>Sylph</em></strong> visualizes project Svelte code and the
-          DOM live in the app interface. Any changes can be monitored instantly,
+          <strong><em>Sylph</em></strong> visualizes the project's Svelte code and
+          the DOM live in the app interface. Any changes can be monitored instantly,
           making it a truely WYSIWYG app.
         </p>
       </div>
@@ -123,9 +123,9 @@
         <h2>Complete Projects</h2>
         <p>
           Unlike many other prototype tools, <strong><em>Sylph</em></strong> doesn't
-          just simply create code snippets to copy and past into an editor, it creates
-          the entire svelte project, saved on your local machine, ready to be opened
-          in your favorite code editor to build out the prototype created.
+          just simply create code snippets to copy and paste into an editor, it creates
+          the entire svelte project, saved on your local machine, ready to open in
+          your favorite code editor to build out the prototype created.
         </p>
       </div>
       <div class="feature-img">
