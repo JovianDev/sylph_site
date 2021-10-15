@@ -42,7 +42,7 @@
   </section> -->
   <section class="about">
     <div class="about-head">
-      <h1>What is SvelteKit?</h1>
+      <h1>What is Sylph?</h1>
     </div>
     <div class="about-text">
       <p>
