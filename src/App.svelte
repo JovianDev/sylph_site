@@ -180,7 +180,7 @@
           />
         </svg>
         <form
-          action={sylphVersion}
+          action="https://github.com/oslabs-beta/Sylph/releases/download/v1.0.0-Beta-Mac/Sylph-1.0.0.dmg"
           method="get"
           target="_blank"
           class="DL-form"
