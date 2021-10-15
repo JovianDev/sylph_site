@@ -6,12 +6,10 @@ console.log('OS USER OS', OS);
 
 const version = (OS) => {
   if (OS?.name === 'Mac OS') {
-    return;
-    ('https://github.com/oslabs-beta/Sylph/releases/download/v1.0.0-Beta-Mac/Sylph-1.0.0.dmg');
+    return 'https://github.com/oslabs-beta/Sylph/releases/download/v1.0.0-Beta-Mac/Sylph-1.0.0.dmg';
   }
   if (OS?.name === 'Windows') {
-    return;
-    ('https://github.com/oslabs-beta/Sylph/releases/download/v1.0.0-beta/Sylph.Setup.1.0.0.exe');
+    return 'https://github.com/oslabs-beta/Sylph/releases/download/v1.0.0-beta/Sylph.Setup.1.0.0.exe';
   }
 };
 export const sylphVersion = version(OS);
