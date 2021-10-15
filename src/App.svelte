@@ -98,7 +98,7 @@
         <p>
           <strong><em>Sylph</em></strong> visualizes the project's Svelte code and
           the DOM live in the app interface. Any changes can be monitored instantly,
-          making it a truely WYSIWYG app.
+          making it a truly WYSIWYG app.
         </p>
       </div>
     </div>
@@ -381,7 +381,7 @@
     margin: 20px;
   }
   .feature-discription p {
-    color: darkgray;
+    color: whitesmoke;
     font-size: 1.3em;
     width: 60%;
   }
