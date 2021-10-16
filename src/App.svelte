@@ -65,20 +65,20 @@
         <img src="/dnd.png" alt="feature icon" class="feature-icon" />
         <h2>Drag and Drop</h2>
         <p>
-          <strong><em>Sylph</em></strong> features a simple drag and drop, interface
-          that allows for a wide range of developers - from little experienced to
-          senior - to quickly prototype project files in svelte by dragging and nesting
-          elements into the sandbox; complete with the ability to edit attributes
-          and styles.
+          <strong><em>Sylph</em></strong> features a simple drag and drop interface
+          that allows for a wide experience range of software engineers to quickly
+          prototype Svelte projects by dragging and nesting components into the sandbox,
+          complete with the ability to edit attributes and styles within the element
+          or global scope.
         </p>
       </div>
       <div class="feature-img">
-        <img src="/sylph-screen.png" alt="feature screenshot" />
+        <img src="/sylph-dnd.png" alt="feature screenshot" />
       </div>
     </div>
     <div class="feature">
       <div class="feature-img">
-        <img src="/sylph-screen.png" alt="feature screenshot" />
+        <img src="/sylph-preview.png" alt="feature screenshot" />
       </div>
       <div class="feature-discription">
         <svg
@@ -96,9 +96,9 @@
         </svg>
         <h2>Live Previews</h2>
         <p>
-          <strong><em>Sylph</em></strong> visualizes the project's Svelte code and
-          the DOM live in the app interface. Any changes can be monitored instantly,
-          making it a truly WYSIWYG app.
+          <strong><em>Sylph's</em></strong> preview window visualizes the generated
+          Svelte code and/or the DOM which updates live as you work so changes can
+          be monitored instantly, making it truly a WYSIWYG application.
         </p>
       </div>
     </div>
@@ -122,14 +122,14 @@
         </svg>
         <h2>Complete Projects</h2>
         <p>
-          Unlike many other prototype tools, <strong><em>Sylph</em></strong> doesn't
-          just simply create code snippets to copy and paste into an editor, it creates
-          the entire svelte project, saved on your local machine, ready to open in
-          your favorite code editor to build out the prototype created.
+          <strong><em>Sylph</em></strong> doesn't just simply create code snippets
+          to copy and paste into an editor, it creates the entire svelte project,
+          saved on your local machine, ready to be opened in your favorite code editor
+          to build out the prototype created in the application.
         </p>
       </div>
       <div class="feature-img">
-        <img src="/sylph-screen.png" alt="feature screenshot" />
+        <img src="/sylph-projects.png" alt="feature screenshot" />
       </div>
     </div>
   </section>
@@ -323,6 +323,7 @@
     justify-content: center;
     padding: 30px;
     margin: 0 0 20px 0;
+    border-radius: 0 0 15px 15px;
   }
   .title-text {
     display: flex;
@@ -371,6 +372,7 @@
     background-color: #282828;
     margin: 20px 10px;
     border-radius: 15px;
+    box-shadow: -1rem 0 3rem #000;
   }
   .feature-discription {
     display: flex;
@@ -393,11 +395,14 @@
   .feature-img {
     justify-content: center;
     align-items: center;
+    width: 50%;
+    margin: 0 20px;
   }
   .feature-img img {
     /* max-width: 100%;
     height: auto; */
-    height: 300px;
+    height: 350px;
+    border-radius: 15px;
     padding: 30px;
     margin: 20x;
   }
