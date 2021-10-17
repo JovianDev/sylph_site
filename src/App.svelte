@@ -12,6 +12,7 @@
 
 <svelte:head>
   <title>Sylph</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </svelte:head>
 <Header />
 <container class="main-container">
@@ -237,7 +238,7 @@
   .about-text {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
     font-size: 1.3em;
   }
   .about-head {
@@ -272,10 +273,10 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    gap: 6em;
+    gap: 2em;
     background-color: #1e1e1e;
     width: 100%;
-    height: 400px;
+    height: auto;
     margin: 30px 0 10px 0;
     border-radius: 30% 30% 0 0;
   }
@@ -299,8 +300,9 @@
   }
   .download {
     width: 100%;
-    height: 500px;
-    margin: 0;
+    height: auto;
+    margin: 0 0 20px 0;
+    padding: 20px;
     background-color: #1e1e1e;
     display: flex;
     justify-content: center;
@@ -311,8 +313,9 @@
   .download h1 {
     color: whitesmoke;
     font-weight: 800;
-    font-size: 2em;
-    padding-bottom: 50px;
+    font-size: 1.8em;
+    margin: 0;
+    /* padding-bottom: 50px; */
   }
 
   .title-head {
@@ -374,18 +377,20 @@
     border-radius: 15px;
     box-shadow: -1rem 0 3rem #000;
   }
+
   .feature-discription {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 30%;
     padding: 20px;
     margin: 20px;
   }
   .feature-discription p {
     color: whitesmoke;
     font-size: 1.3em;
-    width: 60%;
+    width: 80%;
   }
   .feature-discription h2 {
     color: whitesmoke;
@@ -399,15 +404,50 @@
     margin: 0 20px;
   }
   .feature-img img {
-    /* max-width: 100%;
-    height: auto; */
-    height: 350px;
+    max-width: 100%;
+    height: auto;
     border-radius: 15px;
     padding: 30px;
     margin: 20x;
   }
   .feature-icon {
-    width: 200px;
+    width: 12em;
+  }
+  @media (max-width: 700px) {
+    .about-text {
+      width: 100%;
+    }
+    .app-option {
+      flex-direction: column;
+    }
+    .devs {
+      grid-template-columns: 1fr 1fr;
+      margin: 0px 0 20px 0;
+      gap: 1;
+      height: 100%;
+    }
+    .dev-section h1 {
+      font-size: 1.5em;
+      padding-top: 20px;
+    }
+    .title-head {
+      grid-template-columns: unset;
+    }
+    .title-img {
+      margin-top: 20px;
+    }
+    .feature {
+      flex-direction: column;
+    }
+    .feature-discription {
+      width: 100%;
+    }
+    .feature-img img {
+      display: none;
+    }
+    .title-text .DL-form {
+      display: none;
+    }
   }
   .yt-video {
     display: flex;
