@@ -4,13 +4,15 @@
 
 <header>
   <div class="sylph-logo">
-    <img src="/sylph-mac-icon.png" alt="Sylph logo" />
-    <p>Sylph</p>
+    <img src="/sylph-mac-icon.png" alt="Sylph logo" class="logo-desk" />
+    <p class="sylph-title">Sylph</p>
   </div>
-
-  <nav>
+  <div>
+    <img src="/sylph-mac-icon.png" alt="Sylph logo" class="logo-mobile" />
+  </div>
+  <!-- <nav>
     <ul>
-      <!-- <li>
+      <li>
         <a href="#download">Home</a>
       </li>
       <li class:active={something === '/about'}>
@@ -18,9 +20,9 @@
       </li>
       <li class:active={something === '/docs'}>
         <a href="/docs">Docs</a>
-      </li> -->
+      </li>
     </ul>
-  </nav>
+  </nav> -->
   <div class="header-right">
     <a href="https://github.com/oslabs-beta/Sylph" target="_blank">
       <svg
@@ -69,6 +71,9 @@
     align-items: center;
     background-color: #220439;
   }
+  .logo-mobile {
+    display: none;
+  }
   nav {
     margin: 0;
     padding: 0;
@@ -106,5 +111,16 @@
     color: #ffeeaa;
     font-size: 2em;
     font-weight: 900;
+  }
+  @media (max-width: 700px) {
+    .logo-mobile {
+      display: inherit;
+    }
+    .logo-desk {
+      display: none;
+    }
+    .sylph-title {
+      margin-left: 20px;
+    }
   }
 </style>
