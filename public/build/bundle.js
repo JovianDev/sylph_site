@@ -1,5 +1,5 @@
 
-(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35736/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 var app = (function () {
     'use strict';
 
@@ -2014,7 +2014,7 @@ var app = (function () {
 
     	contributorblock0 = new ContributorBlock({
     			props: {
-    				devImg: "https://media-exp1.licdn.com/dms/image/C4D03AQGA6GbnL7avug/profile-displayphoto-shrink_800_800/0/1631750855713?e=1639612800&v=beta&t=pbtoVQC0qc8Ap0n2dRDbj7qvyYN8fwVApYtQsZqu4Ks",
+    				devImg: "./randy.png",
     				name: "Randy Diebold",
     				linkedin: "https://www.linkedin.com/in/randy-diebold-523802206/",
     				github: "https://github.com/Randy-diebold"
@@ -2024,7 +2024,7 @@ var app = (function () {
 
     	contributorblock1 = new ContributorBlock({
     			props: {
-    				devImg: "https://media-exp1.licdn.com/dms/image/C4D03AQFkBD1Q_j8AAw/profile-displayphoto-shrink_800_800/0/1563465185947?e=1639612800&v=beta&t=-8k7a0_FGR6M7eaQeMdNbfyLlD3DD0ETRNZSWAR5ipc",
+    				devImg: "./kailee.png",
     				name: "Kailee Pedersen",
     				linkedin: "https://www.linkedin.com/in/kaileepedersen/",
     				github: "https://github.com/kailee-p"
@@ -2034,7 +2034,7 @@ var app = (function () {
 
     	contributorblock2 = new ContributorBlock({
     			props: {
-    				devImg: "https://media-exp1.licdn.com/dms/image/C4E03AQEKSfkLzET2Dw/profile-displayphoto-shrink_800_800/0/1629157163376?e=1639612800&v=beta&t=Dr92AuQHcyoSBWiZSq1LgPTqkqmCSGjnKrUfHcCIcmE",
+    				devImg: "./haobo.png",
     				name: "Haobo Wang",
     				linkedin: "https://www.linkedin.com/in/haobowang225/",
     				github: "https://github.com/hwpanda"
@@ -2044,7 +2044,7 @@ var app = (function () {
 
     	contributorblock3 = new ContributorBlock({
     			props: {
-    				devImg: "https://media-exp1.licdn.com/dms/image/C4E03AQF499xOPl_xjQ/profile-displayphoto-shrink_800_800/0/1631916229559?e=1639612800&v=beta&t=lQ3b5BwuQETt64nYRZzq8SMzN3-c6wvPvIAFVDyD0wQ",
+    				devImg: "./nicka.png",
     				name: "Nick Andreala",
     				linkedin: "https://www.linkedin.com/in/nickandreala/",
     				github: "https://github.com/JovianDev"
